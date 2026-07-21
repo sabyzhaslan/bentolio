@@ -1,0 +1,15 @@
+:root {
+  --color-background: #f9f1f0;
+  --color-primary: #fadcd9;
+  --color-secondary: #f8afa6;
+  --color-text: #000;
+
+  --border-radius: 20px;
+
+  --font-family: 'Gilroy', sans-serif;
+
+  --container-width: 1392px;
+  --container-padding-x: 24px;
+
+  --transition-duration: 0.2s;
+}
