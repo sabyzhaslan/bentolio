@@ -1,6 +1,5 @@
 .contact {
   flex: 1;
-  padding: 30px 24px 52px;
   background-color: var(--color-secondary);
 
   &:hover .contact-top-bar-image {
@@ -17,6 +16,7 @@
   align-content: space-between;
   max-width: 448px;
   min-height: 351px;
+  padding: 30px 24px 52px;
 
   &:hover {
     scale: none;
