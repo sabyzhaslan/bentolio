@@ -1,0 +1,11 @@
+.soc1als {
+  padding-block: 46px;
+  background-color: var(--color-primary);
+}
+
+.soc1als-list {
+  display: flex;
+  justify-content: center;
+  column-gap: 65px;
+  text-transform: uppercase;
+}
