@@ -1,5 +1,6 @@
 .slogan {
   position: relative;
+  flex: 1;
   min-height: 479px;
   display: inline-flex;
   align-items: end;

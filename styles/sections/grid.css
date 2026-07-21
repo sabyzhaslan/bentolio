@@ -1,12 +1,12 @@
 .grid {
   display: grid;
-  grid-template-columns: 566px 330px 447px;
+  grid-template-columns: 920px 448px;
   gap: 24px;
 
   grid-template-areas:
-    'header   header   header'
-    'slogan   portrait work'
-    'about    contact  soc1als';
+    'header header'
+    'left   right'
+    'left   right';
 }
 
 .header,
@@ -23,26 +23,10 @@
   grid-area: header;
 }
 
-.slogan {
-  grid-area: slogan;
+.left {
+  grid-area: left;
 }
 
-.portrait {
-  grid-area: portrait;
-}
-
-.work {
-  grid-area: work;
-}
-
-.about {
-  grid-area: about;
-}
-
-.contact {
-  grid-area: contact;
-}
-
-.soc1als {
-  grid-area: soc1als;
+.right {
+  grid-area: right;
 }

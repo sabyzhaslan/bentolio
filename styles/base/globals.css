@@ -3,7 +3,7 @@ body {
   font-family: var(--font-family);
   font-weight: 300;
   font-size: 16px;
-  line-height: 1.75;
+  line-height: 1.25;
   color: var(--color-text);
   background-color: var(--color-background);
 }
@@ -16,5 +16,9 @@ a {
   &:hover {
     scale: 1.1;
     rotate: 4deg;
+  }
+
+  &:active {
+    scale: 0.9;
   }
 }

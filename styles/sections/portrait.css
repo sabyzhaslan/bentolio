@@ -1,3 +1,4 @@
 .portrait {
+  width: 330px;
   background: url('../../assets/images/portrait.svg') center / contain no-repeat;
 }

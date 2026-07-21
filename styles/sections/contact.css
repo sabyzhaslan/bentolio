@@ -1,0 +1,44 @@
+.contact {
+  flex: 1;
+  padding: 30px 24px 52px;
+  background-color: var(--color-secondary);
+
+  &:hover .contact-top-bar-image {
+    translate: 6px -6px;
+  }
+
+  &:active .contact-top-bar-image {
+    translate: 0 0;
+  }
+}
+
+.contact-link {
+  display: grid;
+  align-content: space-between;
+  max-width: 448px;
+  min-height: 351px;
+
+  &:hover {
+    scale: none;
+    rotate: none;
+  }
+}
+
+.contact-top-bar {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.contact-top-bar-label {
+  max-width: 78px;
+  font-size: 15px;
+}
+
+.contact-top-bar-image {
+  transition-duration: var(--transition-duration);
+}
+
+.contact-title {
+  font-weight: 500;
+  font-size: 55px;
+}
