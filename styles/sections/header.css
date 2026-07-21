@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 42px 24px;
+  background-color: var(--color-primary);
+  border-radius: var(--border-radius);
+}
+
+.header-logo {
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.header-logo-name {
+  font-weight: 300;
+  font-style: italic;
+}
+
+.header-menu-list {
+  display: flex;
+  column-gap: 48px;
+}
