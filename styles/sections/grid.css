@@ -1,0 +1,38 @@
+.grid {
+  display: grid;
+  grid-template-columns: 566px 330px 447px;
+  gap: 24px;
+
+  grid-template-areas:
+    'header   header   header'
+    'slogan   portrait work'
+    'about    contact  soc1als';
+}
+
+.header {
+  grid-area: header;
+}
+
+.slogan {
+  grid-area: slogan;
+}
+
+.portrait {
+  grid-area: portrait;
+}
+
+.work {
+  grid-area: work;
+}
+
+.about {
+  grid-area: about;
+}
+
+.contact {
+  grid-area: contact;
+}
+
+.soc1als {
+  grid-area: soc1als;
+}
