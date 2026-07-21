@@ -1,10 +1,9 @@
 .slogan {
   position: relative;
+  min-height: 479px;
   display: inline-flex;
   align-items: end;
   background-color: var(--color-primary);
-  border-radius: var(--border-radius);
-  min-height: 479px;
 }
 
 .slogan-image {

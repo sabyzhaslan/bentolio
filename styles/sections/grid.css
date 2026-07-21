@@ -9,6 +9,16 @@
     'about    contact  soc1als';
 }
 
+.header,
+.slogan,
+.portrait,
+.work,
+.about,
+.contact,
+.soc1als {
+  border-radius: var(--border-radius);
+}
+
 .header {
   grid-area: header;
 }
