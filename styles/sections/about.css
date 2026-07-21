@@ -1,0 +1,13 @@
+.about {
+  min-height: 351px;
+  padding: 32px 24px 46px;
+  display: grid;
+  align-content: space-between;
+  font-size: 20px;
+  line-height: 1.25;
+  background-color: var(--color-primary);
+}
+
+.about-description {
+  max-width: 296px;
+}
