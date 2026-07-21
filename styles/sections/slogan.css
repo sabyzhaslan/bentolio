@@ -1,0 +1,28 @@
+.slogan {
+  position: relative;
+  display: inline-flex;
+  align-items: end;
+  background-color: var(--color-primary);
+  border-radius: var(--border-radius);
+  min-height: 479px;
+}
+
+.slogan-image {
+  position: absolute;
+  top: 34px;
+  right: 30px;
+}
+
+.slogan-title {
+  max-width: 475px;
+  margin-left: 24px;
+  margin-bottom: 86px;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1;
+
+  span {
+    font-style: italic;
+    font-weight: 300;
+  }
+}
