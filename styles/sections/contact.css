@@ -22,6 +22,10 @@
     scale: none;
     rotate: none;
   }
+
+  &:active {
+    scale: none;
+  }
 }
 
 .contact-top-bar {

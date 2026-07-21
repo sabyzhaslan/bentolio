@@ -5,8 +5,8 @@
 
   grid-template-areas:
     'header header'
-    'left   right'
-    'left   right';
+    'main   sidebar'
+    'main   sidebar';
 }
 
 .header,
@@ -23,10 +23,10 @@
   grid-area: header;
 }
 
-.left {
-  grid-area: left;
+.main {
+  grid-area: main;
 }
 
-.right {
-  grid-area: right;
+.sidebar {
+  grid-area: sidebar;
 }

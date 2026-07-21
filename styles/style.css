@@ -5,10 +5,9 @@
 @import 'base/utils.css';
 
 @import 'sections/grid.css';
-@import 'sections/left.css';
+@import 'sections/main.css';
 @import 'sections/header.css';
 @import 'sections/slogan.css';
 @import 'sections/portrait.css';
-/*@import 'sections/work.css';*/
 @import 'sections/about.css';
 @import 'sections/contact.css';
